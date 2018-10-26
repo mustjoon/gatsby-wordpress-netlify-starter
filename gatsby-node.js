@@ -90,7 +90,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                       name
                     }
                     fields {
-                      deploy
+                      deploy: {eq: true}
                     }
                   }
                 }
